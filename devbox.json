@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.5/.schema/devbox.schema.json",
+    "packages": [
+      "rustup@1.27.1",
+      "libiconv@2.40",
+      "just@1.36"
+    ],
+    "shell": {
+      "init_hook": [
+        "rustup default stable",
+        "export PS1='\\W \\e[01;31m$\\e[m '"
+      ],
+      "scripts": {
+        "test": [
+          "echo \"Error: no test specified\" && exit 1"
+        ]
+      }
+    }
+  }
+  

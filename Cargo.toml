@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "slipbox-core"
+]
+
+resolver = "2"
